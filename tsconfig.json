@@ -17,5 +17,16 @@
     "moduleResolution": "node", // Follow node.js rules for finding modules
     "allowSyntheticDefaultImports": true, // Assumes default exports if none are created manually
     "emitDeclarationOnly": true // Don't generate JS (rollup will do that) only export type declarations
+  },
+  "paths": {
+    "@oscarcornejo/mojito-ui": ["./src/components/*"]
   }
 }
+
+// "target": "ESNext",
+// "lib": ["dom", "dom.iterable", "esnext"],
+// "allowJs": true,
+// "noFallthroughCasesInSwitch": true,
+// "resolveJsonModule": true,
+// "isolatedModules": true,
+// "noEmit": true,

@@ -1,0 +1,12 @@
+@import "../base/colors";
+@import "../base/global";
+
+.light {
+  .text {
+    color: $black;
+  }
+
+  .background {
+    background-color: $white;
+  }
+}

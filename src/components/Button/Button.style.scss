@@ -1,0 +1,55 @@
+@import "../../common-ui/scss/main.scss";
+
+.btn {
+  width: fit-content;
+  height: 40px;
+
+  background: transparent;
+  border: 1px solid $black;
+  border-radius: 8px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 16px;
+  gap: 8px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+}
+
+/* styling for our variants */
+.btn-primary {
+  border: none;
+  background-color: $primary;
+  color: white;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: $primary;
+    background-color: $color-purple-90;
+  }
+
+  &:active {
+    color: $primary;
+    background-color: $color-purple-94;
+  }
+}
+.btn-danger {
+  border: none;
+  background-color: red;
+  color: white;
+  &:hover {
+    background-color: red;
+  }
+}
+
+/* styling for different shape*/
+.btn-rounded {
+  border-radius: 0.4rem;
+}

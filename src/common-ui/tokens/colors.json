@@ -1,0 +1,65 @@
+{
+  "colors": {
+    "primary": {
+      "value": "#7065f0"
+    },
+    "secondary": {
+      "value": "#100a55"
+    },
+    "white": {
+      "value": "#ffffff"
+    },
+    "black": {
+      "value": "#000929"
+    },
+    "purple": {
+      "92": {
+        "value": "#e0def7"
+      },
+      "94": {
+        "value": "#e8e6f9"
+      },
+      "96": {
+        "value": "#f0effb"
+      },
+      "98": {
+        "value": "#f7f7fd"
+      },
+      "90": {
+        "value": "#d8d6f5"
+      }
+    },
+    "greyscale": {
+      "50": {
+        "value": "#f9fafb"
+      },
+      "100": {
+        "value": "#f4f4f6"
+      },
+      "200": {
+        "value": "#e5e6eb"
+      },
+      "300": {
+        "value": "#d3d5da"
+      },
+      "400": {
+        "value": "#9ea3ae"
+      },
+      "500": {
+        "value": "#6c727f"
+      },
+      "600": {
+        "value": "#4d5461"
+      },
+      "700": {
+        "value": "#394150"
+      },
+      "800": {
+        "value": "#212936"
+      },
+      "900": {
+        "value": "#0b0a0f"
+      }
+    }
+  }
+}

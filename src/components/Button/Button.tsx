@@ -3,8 +3,21 @@ import React from "react";
 // Defs
 import { ButtonProps } from "./Button.def";
 
-const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
-};
+// Styles
+import "./Button.style.scss";
 
-export default Button;
+export const Button: React.FC<ButtonProps> = ({
+  onClick,
+  children,
+  variant,
+  shape,
+  ...props
+}) => {
+  const classNames = `btn btn-${variant} btn-${shape}`;
+
+  return (
+    <button className={classNames} onClick={onClick} {...props}>
+      {children}
+    </button>
+  );
+};

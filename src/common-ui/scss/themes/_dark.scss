@@ -1,0 +1,12 @@
+@import "../base/colors";
+@import "../base/global";
+
+.dark {
+  .text {
+    color: $white;
+  }
+
+  .background {
+    background-color: $greyscale-50;
+  }
+}
